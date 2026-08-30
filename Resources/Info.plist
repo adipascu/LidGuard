@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>LidGuard</string>
+    <key>CFBundleDisplayName</key>
+    <string>LidGuard</string>
+    <key>CFBundleIdentifier</key>
+    <string>be.pascu.LidGuard</string>
+    <key>CFBundleExecutable</key>
+    <string>LidGuard</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>MIT licensed</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>LidGuard turns Bluetooth off while the lid is closed on battery and back on when you reopen it.</string>
+</dict>
+</plist>
