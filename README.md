@@ -5,11 +5,6 @@ battery, and puts them back exactly as they were when you open it again.
 
 On AC power it does nothing.
 
-> Vibe coded. Written end to end by Claude (Opus 5) in Claude Code across **18
-> prompts** and one multiple-choice answer. **No human wrote or edited a single
-> line of code.** The prompts that produced it are reproduced verbatim at the
-> bottom of this file.
-
 ## The problem
 
 An Apple Silicon MacBook can drain flat overnight with the lid closed on battery
@@ -180,35 +175,3 @@ hardware.
 ## License
 
 MIT
-
----
-
-## The prompts
-
-Every prompt that produced this project, verbatim and in order, typos included.
-No private or sensitive data appeared in them, so nothing needed masking. The
-only non-prompt input was a single multiple-choice answer, noted in place.
-
-1. Check why battery drained while the lid was closed overnight
-2. retry
-3. btw some time has passed since
-4. is this a known issue with the chromecast? do research
-5. add a script to disable both bt and wifi when the lid is closed, and resume the normal states when lid is reopened
-6. make sure to document it in a lab folder in ~/lab
-7. so we can later uninstall it
-8. make sure it's robust and reiable
-9. following best practices
-10. idk if it needs to be a script, maybe mac shortcut automations or whatever is best practice and is most reliable
-
-    *(multiple-choice answer here: "Battery only", when asked whether the cutoff should also apply on AC power)*
-
-11. resume
-12. also I am home again
-13. so you can investigate more
-14. make sure the mac lid thing always runs even after restarts
-15. of the mac
-16. make sure it does some logging so we can easier debug later if things go wrong
-17. make it into a production ready app and publish it via github, then add it to my website pascu.be as an example project, mention vibe coded and total number of prompts and mention no manual code edit, also when done commit the session, the prompts I gave you into something visible for humans, also replace any private data in the prompts with **** or anything NSFW, basically redmapt my prompts and add them at the very end, make sure this new prod app has an icon in the macos status bar on top (menu bar or what its called), make sure when the app is quit, it stops doing it's thing, then install it on my machine replacing what we currently have and make it autostart for the computer (have that as a setting in app that will be enabled on ours yet in prod app I want it opt in, and recommended as part of first start of the app. Make it on my machine only that this setting is toggled on.
-18. make this into claude skill, how to create such public gh apps, adding them to the website with stats on prompts and include prompts
-
-**18 prompts. 1 multiple-choice answer. 0 lines of code written or edited by a human.**
